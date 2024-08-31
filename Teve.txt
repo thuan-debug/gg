@@ -2043,9 +2043,9 @@ end
     local tweenfunc = {}
     local Distance = (RealTarget.Position - game:GetService("Players").LocalPlayer.Character:WaitForChild("HumanoidRootPart").Position)
         .Magnitude
-    if Distance < 1000 then
+    if Distance < 4000 then
         Speed = 500
-    elseif Distance >= 1000 then
+    elseif Distance >= 4000 then
         Speed = 500
     end
     if BypassTP then
